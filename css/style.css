@@ -141,7 +141,7 @@ a.link-button:hover, a.link-button:active {
 }
 
 .main-section {
-  padding: 2rem 1rem;
+  padding: 2rem 1.3rem;
 }
 
 .order-here {
@@ -157,4 +157,11 @@ a.link-button:hover, a.link-button:active {
 
 .release-info {
   padding-top: 1rem;
+}
+
+@media screen and (max-width: 430px) {
+  hr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
