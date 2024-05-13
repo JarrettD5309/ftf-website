@@ -5,7 +5,7 @@
       url('../fonts/Futura-55Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -15,7 +15,7 @@
       url('../fonts/Futura-65Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -25,7 +25,7 @@
       url('../fonts/Futura-46LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -35,7 +35,7 @@
       url('../fonts/Futura-45Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -45,7 +45,7 @@
       url('../fonts/Futura-56Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -55,7 +55,7 @@
       url('../fonts/Futura-66MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -65,7 +65,7 @@
       url('../fonts/Futura-76BoldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
-  font-display: swap;
+  font-display: fallback;
 }
 
 @font-face {
@@ -75,7 +75,7 @@
       url('../fonts/Futura-75Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 html {
@@ -171,7 +171,7 @@ a.link-button:hover, a.link-button:active {
   h3 {
     font-size: 2.4rem;
   }
-  
+
   hr {
     margin-left: 1rem;
     margin-right: 1rem;
