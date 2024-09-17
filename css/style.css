@@ -118,6 +118,15 @@ p {
   line-height: 2.2rem;
 }
 
+ul {
+  list-style: square inside;
+}
+
+ul li {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
 a.link-button:link, a.link-button:visited {
   background-color: black;
   border: #fafafa 2px solid;
@@ -142,6 +151,10 @@ a.link-button:hover, a.link-button:active {
 
 .main-section {
   padding: 2rem 1.3rem;
+}
+
+.margin-top-1rem {
+  margin-top: 1rem;
 }
 
 .margin-top-2rem {
