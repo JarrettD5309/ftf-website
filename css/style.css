@@ -127,6 +127,14 @@ ul li {
   line-height: 2.2rem;
 }
 
+a, a:visited {
+  color: rgb(183, 105, 255);
+}
+
+a:hover, a:active {
+  color: blueviolet;
+}
+
 a.link-button:link, a.link-button:visited {
   background-color: black;
   border: #fafafa 2px solid;
